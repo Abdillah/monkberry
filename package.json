@@ -16,7 +16,7 @@
     "build": "babel -d lib/ src/",
     "watch": "babel -w -d lib/ src/",
     "prepublish": "npm run build",
-    "preinstall": "npm run build"
+    "preinstall": "npm install && npm run build"
   },
   "repository": {
     "type": "git",
