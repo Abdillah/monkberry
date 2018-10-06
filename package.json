@@ -1,5 +1,5 @@
 {
-  "name": "monkberry",
+  "name": "@abdillah/monkberry",
   "version": "4.0.8",
   "description": "Monkberry is a JavaScript library for building web user interfaces",
   "bin": "bin/monkberry",
@@ -15,7 +15,8 @@
     "build:parser": "preprocess src/parser/grammar.jison ./src/parser > src/parser/grammar.full.jison && jison src/parser/grammar.full.jison -o src/parser/index.js",
     "build": "babel -d lib/ src/",
     "watch": "babel -w -d lib/ src/",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "preinstall": "npm run build"
   },
   "repository": {
     "type": "git",
