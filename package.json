@@ -1,5 +1,5 @@
 {
-  "name": "@abdillah/monkberry",
+  "name": "monkberry",
   "version": "4.0.8",
   "description": "Monkberry is a JavaScript library for building web user interfaces",
   "bin": "bin/monkberry",
